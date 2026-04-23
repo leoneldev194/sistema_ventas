@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { ProductManager } from './components/ProductManager'
+
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -110,6 +112,10 @@ function App() {
             </li>
           </ul>
         </div>
+      </section>
+
+      <section id="product-management" style={{ padding: '2rem', textAlign: 'center' }}>
+        <ProductManager />
       </section>
 
       <div className="ticks"></div>
